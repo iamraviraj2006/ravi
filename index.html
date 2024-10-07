@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Radhe Radhe</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #e0f7fa;
+      margin: 0;
+      position: relative;
+      /* Important for corner design positioning */
+      min-height: 100vh;
+      /* Allow scrolling when content overflows */
+    }
+
+    h1 {
+      font-family: 'Arial', sans-serif;
+      font-size: 48px;
+      color: #4CAF50;
+      background-color: #f0f0f0;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 300px;
+      margin-bottom: 5%;
+    }
+
+    b {
+      font-family: 'Arial', sans-serif;
+      font-size: 36px;
+      color: #ff5722;
+      background-color: #ffffff;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 5%;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    /* Corner designs */
+    .corner {
+      position: fixed;
+      /* Keep the corner design fixed during scroll */
+      width: 150px;
+      height: 150px;
+      opacity: 0.7;
+      /* Optional: for a transparent effect */
+    }
+
+    .top-left {
+      top: 0;
+      left: 10px;
+    }
+
+    .top-right {
+      top: 0;
+      right: 0;
+    }
+
+    .bottom-left {
+      bottom: 0;
+      left: 0;
+    }
+
+    .bottom-right {
+      bottom: 0;
+      right: 0;
+    }
+
+    .diya {
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+    }
+
+    .orner {
+      position: fixed;
+      /* Keep these elements fixed for consistent display */
+      width: 150px;
+      height: 100px;
+      opacity: 0.7;
+    }
+
+    .to-left {
+      top: 70px;
+      left: 100px;
+    }
+
+    .to-right {
+      top: 70px;
+      right: 100px;
+    }
+
+    .botto-left {
+      bottom: 70px;
+      left: 100px;
+    }
+
+    .botto-right {
+      bottom: 70px;
+      right: 100px;
+    }
+
+    button {
+      font-size: 20px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+
+    h3 {
+      font-family: 'Arial', sans-serif;
+      font-size: 23px;
+      color: #0800ffef;
+      background-color: #71cbe4ef;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    /* Adding animations */
+    #countdown {
+      animation: pulse 3.5s infinite;
+      font-size: 20px;
+      padding: 10px 20px;
+      background-color: #ff0000;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.20);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .em {
+      width: 150px;
+      height: 100px;
+    }
+
+    .con {
+      /* congruchuletion */
+
+      height: 20px;
+      width: px;
+      text-align: center;
+      /* vjknv */
+    }
+
+    .cona {
+      height: 800px;
+      width: 1000px;
+      text-align: center;
+    }
+
+    .hidden {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <script type="text/javascript">
+    atOptions = {
+      'key' : 'ce4e7fdf2fc382ca95973cee36cdb752',
+      'format' : 'iframe',
+      'height' : 90,
+      'width' : 728,
+      'params' : {}
+    };
+  </script>
+  <script type="text/javascript" src="//www.topcreativeformat.com/ce4e7fdf2fc382ca95973cee36cdb752/invoke.js"></script>
+
+  <!-- Corner designs -->
+  <img src="design-removebg-preview.png" alt="Corner Design" class="corner top-left">
+  <img src="d 2.png" alt="" class="diya to-left orner">
+
+  <div class="con">
+    <img id="temporary-image" src="con 2.gif" alt="" class="cona">
+  </div>
+
+  <!-- Other content here -->
+
+  <img src="design-removebg-preview 2.png" alt="Corner Design" class="corner top-right">
+  <img src="d 2.png" alt="" class="diya to-right orner">
+
+  <!-- Happy Diwali function -->
+  <h1> Happy Diwali</h1>
+  <b id="demo"></b>
+
+  <img src="d 4.png" alt="">
+
+
+  <br><br>
+  <h3><img src="d 3.png" alt="" class="diya">फूल की शुरुआत कली से होती है<img src="d 3.png" alt="" class="diya"><br>
+    ज़िंदगी की शुरुआत प्यार से होती है <br>
+    प्यार की शुरुआत अपनो से होती है <br>
+    और अपनो की शुरुआत आपसे होती है !<br>
+    <img src="d 3.png" alt="" class="diya">दिवाली की हार्दिक शुभकामनाएं।<img src="d 3.png" alt="" class="diya"> <br>
+  </h3>
+  <br><br>
+  <h3><i><i>Wishing you all a Happy Diwali!</i></h3></i></h3>
+
+  <br>
+  <!-- date time  -->
+  <div id="countdown"></div>
+  <br>
+
+  <br>
+  <img src="em.gif" alt="shere kro " class="em">
+  <br>
+  <!-- Share button -->
+  <button id="share-btn">Share Greeting</button>
+
+
+  <audio id="bg-music" loop>
+    <source src="diye.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <script>
+    // Prompt for name
+    var userName = prompt(" Enter Your Name:..... \nअपना नाम डाले.....\n \n👇👇👇👇👇 ");
+    var formattedName = userName.toUpperCase();
+
+    // Show greeting with the user's name
+    document.getElementById('demo').innerHTML = "Welcome, " + formattedName + "!";
+
+    // Function to play music
+    function playMusic() {
+      var music = document.getElementById("bg-music");
+      music.play();
+    }
+
+    // Listen for the first touch or click on the body to play music
+    document.body.addEventListener('click', function () {
+      playMusic();
+    }, { once: true });
+
+    // Countdown timer
+    const countdownDate = new Date('October 31, 2024 00:00:00').getTime();
+
+    const countdownFunction = setInterval(function () {
+      const now = new Date().getTime();
+      const timeLeft = countdownDate - now;
+      const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+      document.getElementById('countdown').innerHTML = days + "<i> Days </i>" + hours + " <i> Hours </i> "
+        + minutes + "<i> Minutes </i> " + seconds + "<i> Seconds </i>";
+
+      if (timeLeft < 0) {
+        clearInterval(countdownFunction);
+        document.getElementById('countdown').innerHTML = "EXPIRED";
+      }
+    }, 1000);
+
+    // Share button functionality
+    document.getElementById('share-btn').addEventListener('click', function () {
+      const currentTime = new Date();
+      const formattedTime = currentTime.toLocaleString();
+
+      // Direct image URL
+      const imageURL = "https://www.shutterstock.com/image-vector/indian-festival-lights-happy-diwali-260nw-2374620399.jpg";
+
+      // Message with image link
+      const message = `आपको दिवाली की हार्दिक शुभकामनाएं, प्रिय ${formattedName}! 
+       ${imageURL} \n
+       रोशनी का यह त्यौहार आपके और आपके परिवार के लिए खुशी, समृद्धि और खुशियाँ लेकर आए.\n
+       Shared at: ${formattedTime} Radhe-Radhe`;
+
+      // Share via WhatsApp
+      const whatsappLink = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+      window.open(whatsappLink, '_blank');
+    });
+
+    // Hide the image after 3 seconds
+    setTimeout(function () {
+      document.getElementById("temporary-image").classList.add("hidden");
+    }, 3000);
+
+  </script>
+
+
+  <img src="design-removebg-preview 4.png" alt="Corner Design" class="corner bottom-left">
+  <img src="d 2.png" alt="" class="diya botto-left orner">
+  <img src="design-removebg-preview 3.png" alt="Corner Design" class="corner bottom-right">
+  <img src="d 2.png" alt="" class="diya botto-right orner">
+
+  <script type="text/javascript">
+    atOptions = {
+      'key' : 'ce4e7fdf2fc382ca95973cee36cdb752',
+      'format' : 'iframe',
+      'height' : 90,
+      'width' : 728,
+      'params' : {}
+    };
+  </script>
+  <script type="text/javascript" src="//www.topcreativeformat.com/ce4e7fdf2fc382ca95973cee36cdb752/invoke.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- <script>
+    // Prompt the user for their name and get the current time
+    var x = prompt("Enter Your Name: ");
+    var y = x.toUpperCase();  // Store the name in uppercase
+
+    // Get the current time and format it
+    var currentTime = new Date();
+    var formattedTime = currentTime.toLocaleTimeString();  // Use locale format for time
+
+    // Display the welcome message
+    document.getElementById('demo').innerHTML = "Welcome, " + y + "!";
+
+    // Function to play music
+    function playMusic() {
+      var music = document.getElementById("bg-music");
+      music.play();
+    }
+
+    // Listen for the first touch or click on the body to play music
+    document.body.addEventListener('click', function () {
+      playMusic();
+    }, { once: true });
+
+    // Share button functionality
+    const shareBtn = document.getElementById('share-btn');
+    shareBtn.addEventListener('click', () => {
+      if (navigator.share) {
+        navigator.share({
+          title: 'Happy Diwali Greeting!',
+          text: `Happy Diwali from ${y}!\nWishing you all a wonderful year ahead!\nShared at: ${formattedTime}`,
+          url: window.location.href
+        }).then(() => {
+          console.log('Thanks for sharing!');
+        }).catch(err => {
+          console.error('Error sharing:', err);
+        });
+      } else {
+        alert('Sharing is not supported on this browser.');
+      }
+    });
+
+   // Set the date we're counting down to
+   const countdownDate = new Date('October 31, 2024 00:00:00').getTime();
+
+// Update the countdown every second
+const countdownFunction = setInterval(function() {
+
+    // Get the current date and time
+    const now = new Date().getTime();
+
+    // Calculate the difference between now and the countdown date
+    const timeLeft = countdownDate - now;
+
+    // Time calculations for days, hours, minutes, and seconds
+    const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+    // Display the result in the element with id="countdown"
+    document.getElementById('countdown').innerHTML = days + " Day " + hours + " Hours " 
+    + minutes + " Minutes " + seconds + " Seconds ";
+
+    // If the countdown is over, display a message
+    if (timeLeft < 0) {
+        clearInterval(countdownFunction);
+        document.getElementById('countdown').innerHTML = "EXPIRED";
+    }
+}, 1000);
+
+// Share greeting with name and current time
+document.getElementById('share-btn').addEventListener('click', function() {
+      const currentTime = new Date();
+      const formattedTime = currentTime.toLocaleString();
+      const message = `Wishing you a very HAPPY DIWALi , dear ${formattedName}! May the festival of lights bring joy, prosperity, and happiness to you and your family. Shared at: ${formattedTime}`;
+
+      // Share via WhatsApp
+      const whatsappLink = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+      window.open(whatsappLink, '_blank');
+    });
+  </script> -->
